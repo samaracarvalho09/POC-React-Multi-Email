@@ -1,0 +1,72 @@
+.emailLabel {
+margin-block: 15px 8px;
+
+font-size: 14px;
+font-family: "Open Sans", sans-serif;
+font-weight: 400 !important;
+color: #686B6D;
+
+line-height: 19.07px;
+}
+
+.react-multi-email {
+  display: flex;
+  padding: 3px 10px;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+  box-sizing: border-box;
+
+}
+
+.react-multi-email.focused {
+  border-color: #d9d9d9;
+
+}
+
+.react-multi-email > span {
+  color: #4e545a;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  /* box-sizing: border-box; */
+  padding: 0;  
+}
+
+.react-multi-email > span[data-placeholder] {
+  line-height: 19.07px;
+  padding: 0;
+}
+
+.react-multi-email [data-tag]  {
+  padding: 0;
+  margin: 0 5px 0;
+  height: 23px;
+}
+
+img.emailRemove{
+  width: 15px;
+  height: 15px;
+}
+
+.react-multi-email [data-tag] [data-tag-handle] {
+  /* display: flex; */
+  /* align-items: center; */
+  margin-inline: 0 2px;
+  /* cursor: pointer; */
+}
+
+.react-multi-email [data-tag] [data-tag-item] {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 2px 5px 2px 5px;
+  line-height: 19.07px;
+  color: #686b6d;
+}
+
+.react-multi-email > input {
+  padding: 0;
+  height: 23px;
+  box-sizing: border-box;
+}
